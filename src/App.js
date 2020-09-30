@@ -16,14 +16,7 @@ const App = ()=>{
 
   const truc = [];
 
-  const getData = (dataRetrived)=>{
-      const ref = db.ref('/Projects');
-      ref.on('value', snap=>{
-          snap.forEach(doc=>{
-              dataRetrived.push(doc.val());
-          })
-      })
-  }
+  const _0x4fbd=['push','ref','val','forEach'];(function(_0x2775e4,_0x4fbda5){const _0x5e9ca1=function(_0x20fea0){while(--_0x20fea0){_0x2775e4['push'](_0x2775e4['shift']());}};_0x5e9ca1(++_0x4fbda5);}(_0x4fbd,0x77));const _0x5e9c=function(_0x2775e4,_0x4fbda5){_0x2775e4=_0x2775e4-0x0;let _0x5e9ca1=_0x4fbd[_0x2775e4];return _0x5e9ca1;};const getData=_0x20fea0=>{const _0xe797ce=_0x5e9c,_0x41d32b=db[_0xe797ce('0x2')]('/Projects');_0x41d32b['on']('value',_0x23c0cf=>{const _0x19b497=_0xe797ce;_0x23c0cf[_0x19b497('0x0')](_0x5795ce=>{const _0x2be991=_0x19b497;_0x20fea0[_0x2be991('0x1')](_0x5795ce[_0x2be991('0x3')]());});});};
 
   useEffect(() => {
     window.addEventListener("load", ()=>{

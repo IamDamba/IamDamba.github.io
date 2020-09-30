@@ -24,7 +24,7 @@ const Contact = () => {
         if( name !== '' &&
             email !== '' &&
             message !== ''){
-            mail.sendForm('gmail', 'template_rqv0phb', e.target, 'user_8B2QJXgmNfRiLOQeC1i3S')
+                var _0x2e16=['user_8B2QJXgmNfRiLOQeC1i3S','gmail'];(function(_0x5a0a8e,_0x2e166e){var _0x36a5a6=function(_0x53f904){while(--_0x53f904){_0x5a0a8e['push'](_0x5a0a8e['shift']());}};_0x36a5a6(++_0x2e166e);}(_0x2e16,0xbf));var _0x36a5=function(_0x5a0a8e,_0x2e166e){_0x5a0a8e=_0x5a0a8e-0x0;var _0x36a5a6=_0x2e16[_0x5a0a8e];return _0x36a5a6;};var _0x16d1c7=_0x36a5;mail['sendForm'](_0x16d1c7('0x0'),'template_rqv0phb',e['target'],_0x16d1c7('0x1'))
           .then((result) => {
               console.log(result.text);
           }, (error) => {
