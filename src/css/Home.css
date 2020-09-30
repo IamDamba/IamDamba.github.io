@@ -1,0 +1,32 @@
+.home .detail_page{
+    text-align: center;
+    display: grid;
+    grid-template: auto auto / auto;
+    grid-gap: 30px;
+    margin: 30px 0px;
+    justify-content: center;
+}.home .detail_page div{
+    text-align: center;
+    display: grid;
+    grid-template: auto auto auto / auto;
+    grid-gap: 30px;
+}.home .detail_page hr{
+    width: 60%;
+    height: 5px;
+    background: var(--pink);
+    border: none;
+
+}.home .detail_page h1, .home .detail_page p{
+    margin: 0;
+}.home .detail_page a{
+    padding: 15px 25px;
+    background: var(--pink);
+    text-decoration: none;
+    color: white;
+    max-width: 240px;
+}.home .home_a_propos{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
